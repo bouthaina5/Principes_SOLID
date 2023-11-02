@@ -1,9 +1,11 @@
-package com.directi.training.srp.exercise;
+package com.directi.training.srp.exercice_refactored;
+
+import com.directi.training.srp.exercise.Car;
 
 import java.util.ArrayList;
 
 public class CarFormatter {
-	public String getCarsNames(ArrayList<Car> cars)
+	public String getCarNames(ArrayList<Car> cars)
     {
         StringBuilder sb = new StringBuilder();
         for (Car car : cars) {
@@ -14,4 +16,5 @@ public class CarFormatter {
         }
         return sb.substring(0, sb.length() - 2);
     }
+
 }

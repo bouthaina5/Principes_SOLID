@@ -1,4 +1,6 @@
-package com.directi.training.srp.exercise;
+package com.directi.training.srp.exercice_refactored;
+
+import com.directi.training.srp.exercise.Car;
 
 import java.util.ArrayList;
 
